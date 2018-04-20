@@ -7,7 +7,7 @@ a MN instance.
 
 What you will need
 ------------------
-- a qt wallet with at least 1000 coins
+- a qt wallet with at least 15000 coins
 - a VPS instance running Linux, this setup is using Ubuntu 16.04 64-bit.
 
 Automated masternode installation
@@ -181,8 +181,8 @@ cd mun
 ```
 Download and extract linux binaries:
 ```
-wget https://github.com/muncrypto/muncoin/releases/download/v0.1.0.2/muncoin_0.1.0.2_ubuntu_16.04.tar.gz
-tar -xvf muncoin_0.1.0.2_ubuntu_16.04.tar.gz
+wget https://github.com/muncrypto/muncoin/releases/download/v0.1.0.3/muncoin_0.1.0.3_ubuntu_16.04.tar.gz
+tar -xvf muncoin_0.1.0.3_ubuntu_16.04.tar.gz
 ```
 
 You should have now the daemon mund and wallet mun-cli files in /home/YOURUSERNAME/mun directory. Start the daemon:
